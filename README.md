@@ -93,7 +93,21 @@
 pip install scikit-learn pandas matplotlib seaborn numpy
 python readmission_prediction_poc.py
 ```
+## 🚀 Live Demonstration
 
+Run the POC live in Google Colab:
+
+[![Open In Colab]
+https://colab.research.google.com/drive/1XHZlgm32rFwgxIWtMkTOe40bKIymaWkS?usp=sharing
+
+
+Simply click "Run All" or press Ctrl+F9 to execute the entire POC.
+The model will run in ~15 seconds and display:
+- ROC Curve (94.7% AUC)
+- Feature Importance
+- Confusion Matrix
+- Risk Distribution
+https://colab.research.google.com/drive/1XHZlgm32rFwgxIWtMkTOe40bKIymaWkS?usp=sharing
 ### View Results
 Opens a 4-panel visualization showing:
 - ROC curve with 94.7% AUC
